@@ -1,0 +1,68 @@
+
+Language model created by QuickLM on Sat May 10 03:42:44 EDT 2025
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 8 sentences and 11 words
+
+\data\
+ngram 1=11
+ngram 2=17
+ngram 3=16
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2430
+-1.5051 CHROME -0.2430
+-1.3291 CLOSE -0.2657
+-1.5051 NETBEANS -0.2430
+-1.8062 NOTEPAD -0.2430
+-1.8062 NOTE[AD -0.2430
+-1.3291 OPEN -0.2657
+-1.8062 RESTART -0.2430
+-1.8062 SHUTDOWN -0.2430
+-1.5051 SYSTEM -0.2872
+
+\2-grams:
+-0.7270 <s> CLOSE 0.0000
+-0.7270 <s> OPEN 0.0000
+-0.9031 <s> SYSTEM 0.0000
+-0.3010 CHROME </s> -0.3010
+-0.7782 CLOSE CHROME 0.0000
+-0.7782 CLOSE NETBEANS 0.0000
+-0.7782 CLOSE NOTE[AD 0.0000
+-0.3010 NETBEANS </s> -0.3010
+-0.3010 NOTEPAD </s> -0.3010
+-0.3010 NOTE[AD </s> -0.3010
+-0.7782 OPEN CHROME 0.0000
+-0.7782 OPEN NETBEANS 0.0000
+-0.7782 OPEN NOTEPAD 0.0000
+-0.3010 RESTART </s> -0.3010
+-0.3010 SHUTDOWN </s> -0.3010
+-0.6021 SYSTEM RESTART 0.0000
+-0.6021 SYSTEM SHUTDOWN 0.0000
+
+\3-grams:
+-0.7782 <s> CLOSE CHROME
+-0.7782 <s> CLOSE NETBEANS
+-0.7782 <s> CLOSE NOTE[AD
+-0.7782 <s> OPEN CHROME
+-0.7782 <s> OPEN NETBEANS
+-0.7782 <s> OPEN NOTEPAD
+-0.6021 <s> SYSTEM RESTART
+-0.6021 <s> SYSTEM SHUTDOWN
+-0.3010 CLOSE CHROME </s>
+-0.3010 CLOSE NETBEANS </s>
+-0.3010 CLOSE NOTE[AD </s>
+-0.3010 OPEN CHROME </s>
+-0.3010 OPEN NETBEANS </s>
+-0.3010 OPEN NOTEPAD </s>
+-0.3010 SYSTEM RESTART </s>
+-0.3010 SYSTEM SHUTDOWN </s>
+
+\end\

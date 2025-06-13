@@ -1,0 +1,8 @@
+open chrome
+close chrome
+open notepad
+close notepad
+open netbeans
+close netbeans
+system shutdown
+system restart
